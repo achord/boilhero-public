@@ -35,8 +35,22 @@
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
     <script
-      src="/expo/static/js/web/AppEntry-2e89554d901ef78be38ec195dce98976.js"
+      src="/_expo/static/js/web/AppEntry-d243cbd96b63627ac60859c1ead33691.js"
       defer
     ></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HF3DQRSJ1B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-HF3DQRSJ1B')
+    </script>
   </body>
 </html>
